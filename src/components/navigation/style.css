@@ -1,0 +1,72 @@
+.navActive {
+    padding: 10px 50px;
+    z-index: 9999;
+}
+
+@media (max-width: 1020px) {
+    .collapse {
+        height: 350px;
+    }
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.search-nav input {
+    border-radius: 25px;
+    background-color: #efeeee;
+}
+
+
+/* .navbar-collapse {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+.collapse {
+    /* height: 500px; */
+    z-index: 1;
+}
+
+.chat-nav {
+    background: none;
+}
+
+.btn-profile-nav {
+    background: none;
+    padding: 0;
+}
+
+.chat-img-nav {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+.profile-img-nav {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-nav {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: white;
+    margin: auto 20px;
+    color: #0B132A;
+}
+
+.btn-yellow-nav {
+    width: max(150px, 10%);
+    background-color: #FFBA33;
+    border-radius: 50px;
+}
